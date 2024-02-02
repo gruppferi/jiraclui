@@ -55,3 +55,4 @@ MANIFEST
 venv
 config.yaml
 configs.yaml
+test.py
