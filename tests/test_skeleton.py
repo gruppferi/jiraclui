@@ -1,6 +1,6 @@
 import pytest
 
-from jiraclui.skeleton import fib, main
+from jiraclui.main import fib, main
 
 __author__ = "Ferdows Shahryar"
 __copyright__ = "Ferdows Shahryar"
