@@ -1,7 +1,7 @@
-jiracli
+jiraclui
 =======
 
-`jiracli` is a Command Line Interface (CLI) tool designed to interact with Jira, allowing users to efficiently manage tickets across various projects. This tool provides features such as fetching tickets, displaying them in a CLI table with customizable filtering options, updating ticket statuses, creating new tickets, and viewing ticket details – all directly from the command line.
+`jiraclui` is a Command Line Interface (CLI) tool designed to interact with Jira, allowing users to efficiently manage tickets across various projects. This tool provides features such as fetching tickets, displaying them in a CLI table with customizable filtering options, updating ticket statuses, creating new tickets, and viewing ticket details – all directly from the command line.
 
 Features
 --------
@@ -19,7 +19,7 @@ Features
 Configuration
 -------------
 
-The `jiracli` tool supports a configuration file (`config.yaml`) that allows users to customize various aspects of the application. Here are some of the configurable options:
+The `jiraclui` tool supports a configuration file (`config.yaml`) that allows users to customize various aspects of the application. Here are some of the configurable options:
 
 - **Project Names:** Specify the Jira projects from which tickets should be fetched.
 
@@ -36,26 +36,26 @@ The `jiracli` tool supports a configuration file (`config.yaml`) that allows use
 Installation
 ------------
 
-To use `jiracli`, follow these steps:
+To use `jiraclui`, follow these steps:
 
-1. **Install the package:** Install the `jiracli` package using your preferred package manager. Open a terminal and run:
+1. **Install the package:** Install the `jiraclui` package using your preferred package manager. Open a terminal and run:
 
 ```
-      pip install jiracli
+      pip install jiraclui
 ```
 
 2. **Generate a configuration file:** Create a `config.yaml` file to customize your Jira settings and preferences. You can generate a sample configuration using the `--generate-config` option:
 
 ```
-      jiracli --generate-config -c config.yaml
+      jiraclui --generate-config -c config.yaml
 ```
 
    Open the generated `config.yaml` file and customize it with your Jira instance details, including project names, users list, Jira API URL, and API token.
 
-3. **Run the `jiracli` tool:** Execute the following command in the terminal:
+3. **Run the `jiraclui` tool:** Execute the following command in the terminal:
 
 ```
-      jiracli -c config.yaml
+      jiraclui -c config.yaml
 ```
 
    The application will use the specified configuration to connect to your Jira instance and provide a powerful command-line interface for interacting with your tickets.
@@ -63,13 +63,13 @@ To use `jiracli`, follow these steps:
 4. **Set up an alias for easy access:** For enhanced usability, you can add an alias to your shell configuration file (e.g., `.bashrc` or `.zshrc`). Open the configuration file using a text editor and add the following line:
 
 ```
-      alias jiracli='jiracli -c /path/to/your/config.yaml'
+      alias jiraclui='jiraclui -c /path/to/your/config.yaml'
 ```
 
-   Replace `/path/to/your/config.yaml` with the actual path to your `config.yaml` file. After saving the configuration file, you can use the `jiracli` alias directly in the terminal:
+   Replace `/path/to/your/config.yaml` with the actual path to your `config.yaml` file. After saving the configuration file, you can use the `jiraclui` alias directly in the terminal:
 
 ```
-      jiracli
+      jiraclui
 ```
 
    This alias simplifies the command and allows for quick access to your Jira CLI with the specified configuration.
