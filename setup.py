@@ -3,7 +3,7 @@ from setuptools import setup
 if __name__ == "__main__":
     try:
         setup(
-            version="1.0.1",  # Set the desired version here
+            version="1.0.3",  # Set the desired version here
             use_scm_version={"version_scheme": "no-guess-dev"},
         )
     except Exception as e:
